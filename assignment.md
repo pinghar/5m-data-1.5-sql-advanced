@@ -20,7 +20,7 @@ FROM claim
 FULL OUTER JOIN
 CAR ON claim.car_id = car.id;
 ```
-Please refer to *[PictureQ1](https://github.com/pinghar/5m-data-1.4-sql-basic-dml/blob/main/PictureforQ1(1.4).png)* for the answer.
+Please refer to *[PictureQ1](https://github.com/pinghar/5m-data-1.5-sql-advanced/blob/main/PictureforQ1(1.5).png)* for the answer.
 ### Question 2
 
 Write a SQL query to compute the running total of the `travel_time` column for each `car_id` in the `claim` table. The resulting table should contain `id, car_id, travel_time, running_total`.
