@@ -50,7 +50,7 @@ FROM car C1
 INNER JOIN avg_resale_value_by_car_use C2 ON C1.car_use = C2.car_use 
 WHERE resale_value < C2.avg_resale_value ;
 ```
-Please refer to *[PictureQ3](https://github.com/pinghar/5m-data-1.5-sql-advanced/blob/main/PictureforQ2(1.5).png)* for the answer.
+Please refer to *[PictureQ3](https://github.com/pinghar/5m-data-1.5-sql-advanced/blob/main/PictureforQ3(1.5).png)* for the answer.
 ## Submission
 
 - Submit the URL of the GitHub Repository that contains your work to NTU black board.
