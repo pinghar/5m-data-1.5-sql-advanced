@@ -32,7 +32,7 @@ SELECT id, car_id, travel_time,
 SUM(travel_time) OVER (PARTITION BY car_id ORDER BY id ) AS running_total
 FROM claim;
 ```
-Please refer to *[PictureQ2](https://github.com/pinghar/5m-data-1.5-sql-advanced/blob/main/PictureforQ1(1.5).png)* for the answer.
+Please refer to *[PictureQ2](https://github.com/pinghar/5m-data-1.5-sql-advanced/blob/main/PictureforQ2(1.5).png)* for the answer.
 ### Question 3
 
 Using a Common Table Expression (CTE), write a SQL query to return a table containing `id, resale_value, car_use` from `car`, where the car resale value is less than the average resale value for the car use.
